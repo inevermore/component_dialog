@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dialog</title>
+    <link rel="stylesheet" href="dialogStyle.css">
+</head>
+<body>
+<div role="dialog" aria-labelledby="title" aria-describedby="content">
+    <h2 id="title">Dialog Title</h2>
+    <p id="content">I am the dialog content.</p>
+</div>
+<input name="fname" />
+</body>
+
+<script src="js/jquery.min.js"></script>
+<script>
+    var $input = $('div');
+    console.log($input.offset());
+</script>
+</html>
